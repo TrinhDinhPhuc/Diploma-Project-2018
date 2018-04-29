@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe05192c-cd64-4eac-b6dd-db32f125aca2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Feature_Scaling.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Feature_Scaling_Standardization.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/~WRL1256.tmp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multicollinearity.docx" afterPath="$PROJECT_DIR$/Multicollinearity.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/~$lticollinearity.docx" afterPath="$PROJECT_DIR$/~$lticollinearity.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Đồ Án Tốt Nghiệp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,14 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Feature_Scaling.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Feature_Scaling.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Feature_Scaling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="84">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#29#47#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Feature_Scaling_Standardization.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Feature_Scaling_Standardization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,6 +74,7 @@
       <list>
         <option value="$PROJECT_DIR$/SVD.py" />
         <option value="$PROJECT_DIR$/Feature_Scaling.py" />
+        <option value="$PROJECT_DIR$/Feature_Scaling_Standardization.py" />
       </list>
     </option>
   </component>
@@ -127,7 +138,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Feature_Scaling">
+  <component name="RunManager" selected="Python.Feature_Scaling_Standardization">
     <configuration default="false" name="SVD" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,6 +169,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Đồ Án Tốt Nghiệp" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Feature_Scaling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Feature_Scaling_Standardization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Đồ Án Tốt Nghiệp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Feature_Scaling_Standardization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -296,14 +324,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.SVD" />
       <item index="1" class="java.lang.String" itemvalue="Python.Feature_Scaling" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Feature_Scaling_Standardization" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.Feature_Scaling" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SVD" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.Feature_Scaling_Standardization" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Feature_Scaling" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SVD" />
       </list>
     </recent_temporary>
   </component>
@@ -371,11 +401,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Feature_Scaling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        <state relative-caret-position="84">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#29#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature_Scaling_Standardization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
