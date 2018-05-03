@@ -91,47 +91,6 @@ def Draw_tree(node, prefix, isTail):
         else:
             prefix = prefix + "│   "
         Draw_tree(node.children[-1], prefix, True)
-#
-# def Query(tree):  # main function of finding common buyers
-#     temp = raw_input("Please input two items: ")
-#     a = temp[0]
-#     b = temp[1]
-#     for element in sample_list:  # swap the sequence of user's input, make it fit the OFI sequence
-#         if (element == a):
-#             break
-#         elif (element == b):
-#             temp = a
-#             a = b
-#             b = temp
-#             break
-#     result = 0
-#     A_list = []
-#     B_list = []
-#     FindA(tree, a, A_list)
-#     for node in A_list:
-#         FindB(node, b, B_list)
-#     for node in B_list:
-#         result += node.times
-#     return result
-#
-# def FindA(node, a, list):
-#     if (len(node.children) == 0):
-#         return
-#     if (node.item == a):
-#         list.append(node)
-#     else:
-#         for child in node.children:
-#             FindA(child, a, list)
-#
-# def FindB(node, b, list):
-#     if (node.item == b):
-#         list.append(node)
-#     else:
-#         for child in node.children:
-#             FindB(child, b, list)
-#         if (len(node.children) == 0):
-#             return
-
 if __name__ == "__main__":
     filename = input('Please enter file name: ')
     while True:
@@ -153,13 +112,17 @@ if __name__ == "__main__":
         totalline += 1
     i = totalline
 
-    print("Your tree has been succefully built, shown as follow:  ")
-    Draw_tree(root, "", True)
     fff = open('Fp-Tree_Output.txt')
     triplets=fff.read().split()
     for iii in range(0,len(triplets)):
         triplets[iii]=triplets[iii].split(',')
+        for kkk in triplets[iii]:
+            if kkk=="":
+                (triplets[iii].remove(kkk))
+
     print(triplets)
     print("Tree Building...... Wait please....")
     for n in triplets:
         BuildTree(root, n, n[0])
+    print("Your tree has been succefully built, shown as follow:  ")
+    Draw_tree(root, "", True)

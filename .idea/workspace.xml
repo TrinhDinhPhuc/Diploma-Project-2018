@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe05192c-cd64-4eac-b6dd-db32f125aca2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/~$lticollinearity.docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multicollinearity.docx" afterPath="$PROJECT_DIR$/Multicollinearity.docx" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp3_output_ttx.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp3_thongke.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_output_ttx.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_thongke.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp5_output_ttx.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp5_thongke.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp7_output_ttx.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/Data_6_Supp2_output_ttx.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/OFI_list.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/One-hot-encoding.py" afterPath="$PROJECT_DIR$/One-hot-encoding.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py" afterPath="$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FPTree and Apriori/fptreeee.py" afterPath="$PROJECT_DIR$/FPTree and Apriori/fptreeee.py" />
     </list>
     <ignored path="Đồ Án Tốt Nghiệp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +80,8 @@
       <file leaf-file-name="fptreeee.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FPTree and Apriori/fptreeee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3024">
-              <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+            <state relative-caret-position="3045">
+              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
               </folding>
@@ -84,8 +92,8 @@
       <file leaf-file-name="FpTree-Growth.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="160" column="34" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="34" />
+            <state relative-caret-position="-689">
+              <caret line="86" column="35" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="35" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -113,6 +121,7 @@
         <option value="$PROJECT_DIR$/Feature_Scaling_Standardization.py" />
         <option value="$PROJECT_DIR$/One-hot-encoding.py" />
         <option value="$PROJECT_DIR$/FPTree and Apriori/fptreeee.py" />
+        <option value="$PROJECT_DIR$/FPTree and Apriori/Fp-Tree_Output.txt" />
         <option value="$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py" />
       </list>
     </option>
@@ -149,6 +158,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,7 +193,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,14 +452,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.50595236" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5579832" sideWeight="0.5119048" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34117648" sideWeight="0.4940476" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5579832" sideWeight="0.48809522" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -501,6 +510,118 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SVD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature_Scaling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature_Scaling_Standardization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/One-hot-encoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/fptreeee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature_Scaling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature_Scaling_Standardization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/One-hot-encoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/fptreeee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SVD.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -667,18 +788,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FPTree and Apriori/fptreeee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3024">
-          <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+        <state relative-caret-position="3045">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Fp-Tree_Output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="160" column="34" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="34" />
+        <state relative-caret-position="-689">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

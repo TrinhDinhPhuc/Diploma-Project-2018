@@ -4,7 +4,7 @@ import string
 
 class Node:#tree sturcture
 	def __init__(self):
-		self.num_children=0
+		self.num_children=0 
 		self.children=[]
 		self.parent=None
 		self.times=0
