@@ -11,7 +11,6 @@ class Node:  # tree sturcture
         self.times = 0
         self.item = ''
 
-
 def cal_Min_Sup(s, minSupp):
     file = open(s, mode='r', encoding='utf8')
     C1 = {}
@@ -53,6 +52,7 @@ def BuildTree(node, list, element):
     if (len(list) == 0):
         return
     for child in node.children:
+        print("child.item={}\nnode.chidren={}\nelement={}\nlist={}".format(child.item,node.children,element,list))
         if (child.item == element):
             child.times += 1
             del list[0]
@@ -123,6 +123,7 @@ if __name__ == "__main__":
     print(triplets)
     print("Tree Building...... Wait please....")
     for n in triplets:
+        print("n=",n)
         BuildTree(root, n, n[0])
     print("Your tree has been succefully built, shown as follow:  ")
     Draw_tree(root, "", True)
