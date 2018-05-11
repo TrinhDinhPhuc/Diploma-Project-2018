@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe05192c-cd64-4eac-b6dd-db32f125aca2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Confusion matrix.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keepdims=True.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/~WRL2551.tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multicollinearity &amp; feature scaling.docx" afterPath="$PROJECT_DIR$/Multicollinearity &amp; feature scaling.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/~$nh giá hệ thống phân lớp.docx" afterPath="$PROJECT_DIR$/~$nh giá hệ thống phân lớp.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Đánh giá hệ thống phân lớp.docx" afterPath="$PROJECT_DIR$/Đánh giá hệ thống phân lớp.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Accuracy 1.py" afterPath="$PROJECT_DIR$/Accuracy 1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Accuracy.py" afterPath="$PROJECT_DIR$/Accuracy.py" />
-    </list>
+    <list default="true" id="fe05192c-cd64-4eac-b6dd-db32f125aca2" name="Default" comment="" />
     <ignored path="Đồ Án Tốt Nghiệp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +45,8 @@
       <file leaf-file-name="One-hot-encoding1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/One-hot-encoding1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="227">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -167,7 +157,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Confusion matrix">
+  <component name="RunManager" selected="Python.One-hot-encoding1">
     <configuration default="false" name="One-hot-encoding1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -396,11 +386,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Confusion matrix" />
-        <item index="1" class="java.lang.String" itemvalue="Python.keepdims=True" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Accuracy 1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Accuracy" />
-        <item index="4" class="java.lang.String" itemvalue="Python.One-hot-encoding1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.One-hot-encoding1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Confusion matrix" />
+        <item index="2" class="java.lang.String" itemvalue="Python.keepdims=True" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Accuracy 1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Accuracy" />
       </list>
     </recent_temporary>
   </component>
@@ -838,8 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/One-hot-encoding1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="227">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
