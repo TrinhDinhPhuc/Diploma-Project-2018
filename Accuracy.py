@@ -1,27 +1,10 @@
-#!/usr/bin/env python
-
+from __future__ import print_function
 import numpy as np
-from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import accuracy_score
 
-# Input training data
-training_points = [[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]]
-training_labels = [1, 1, 1, 2, 2, 2]
-X = np.array(training_points)
-Y = np.array(training_labels)
+def acc(y_true, y_pred):
+    correct = np.sum(y_true == y_pred)
+    return float(correct)/y_true.shape[0]
 
-# Create Naive Bayes classifier
-clf = GaussianNB()
-clf.fit(X, Y)
-
-# Classify test data with the classifier
-test_points = [[1, 1], [2, 2], [3, 3], [4, 3]]
-test_labels = [2, 2, 2, 1]
-predicts = clf.predict(test_points)
-
-# Calculate Accuracy Rate manually
-count = len(["ok" for idx, label in enumerate(test_labels) if label == predicts[idx]])
-print ("Accuracy Rate, which is calculated manually is: %f" % (float(count) / len(test_labels)))
-
-# Calculate Accuracy Rate by using accuracy_score()
-print ("Accuracy Rate, which is calculated by accuracy_score() is: %f" % accuracy_score(test_labels, predicts))
+y_true = np.array([0, 0, 0, 0, 1, 1, 1, 2, 2, 2])
+y_pred = np.array([0, 1, 0, 2, 1, 1, 0, 2, 1, 2])
+print('Độ chính xác accuracy = {}%'.format(int(acc(y_true, y_pred)*100)))
