@@ -17,7 +17,7 @@ def cal_Min_Sup(s, minSupp):
     Real_line = 0
     for line in file:
         Real_line += 1
-        for item in line.split(","):
+        for item in line.split(";"):
             if item != "" and item != "\n":
                 for i in item:
                     if i != "\n":
@@ -52,7 +52,6 @@ def BuildTree(node, list, element):
     if (len(list) == 0):
         return
     for child in node.children:
-        print("child.item={}\nnode.chidren={}\nelement={}\nlist={}".format(child.item,node.children,element,list))
         if (child.item == element):
             child.times += 1
             del list[0]
@@ -108,7 +107,6 @@ if __name__ == "__main__":
     root = Node()
     totalline = 0
     for line in OFI_list:
-        print(line)
         totalline += 1
     i = totalline
 
@@ -120,10 +118,8 @@ if __name__ == "__main__":
             if kkk=="":
                 (triplets[iii].remove(kkk))
 
-    print(triplets)
     print("Tree Building...... Wait please....")
     for n in triplets:
-        print("n=",n)
         BuildTree(root, n, n[0])
     print("Your tree has been succefully built, shown as follow:  ")
     Draw_tree(root, "", True)
