@@ -8,7 +8,6 @@ X = np.array([[168,169,180,176,161,163,172,170,173,163,173,169,172,155]]).T
 # cân nặng (kg)
 y = np.array([[ 50 ,55 ,62, 64, 53 , 46, 65, 58, 73, 55, 74, 52, 71,80]]).T
 
-
 # xây dựng X feature & reshape
 one = np.ones((X.shape[0], 1))
 Xbar = np.concatenate((one, X), axis = 1)
