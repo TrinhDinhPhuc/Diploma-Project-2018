@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe05192c-cd64-4eac-b6dd-db32f125aca2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dd/mm/yyy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/precision &amp; recall.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVM/SVM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Đồ Án Tốt Nghiệp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Đồ Án Tốt Nghiệp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gradient Decent.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Gradient Decent.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logistic Regression/Logistic Regression.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Logistic Regression/Logistic Regression.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logistic Regression/~$gistic Regression.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/svm5.png" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis_TDP_ver5.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Thesis_TDP_ver5.docx" afterDir="false" />
     </list>
     <ignored path="Đồ Án Tốt Nghiệp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yyy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="yyy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dd/mm/yyy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+              <caret line="2" column="49" selection-start-line="2" selection-end-line="2" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVM.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,10 +125,11 @@
         <option value="$PROJECT_DIR$/Linear_Regression.py" />
         <option value="$PROJECT_DIR$/precision &amp; recall.py" />
         <option value="$PROJECT_DIR$/dd/mm/yyy.py" />
+        <option value="$PROJECT_DIR$/SVM/SVM.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="754" />
@@ -133,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,10 +170,16 @@
               <item name="Đồ Án Tốt Nghiệp" type="462c0819:PsiDirectoryNode" />
               <item name="Neural Network" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Đồ Án Tốt Nghiệp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Đồ Án Tốt Nghiệp" type="462c0819:PsiDirectoryNode" />
+              <item name="SVM" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.precision &amp; recall">
+  <component name="RunManager" selected="Python.SVM">
     <configuration name="GD without momentum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Đồ Án Tốt Nghiệp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,24 +217,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="K-means" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Đồ Án Tốt Nghiệp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-means.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="Linear_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Đồ Án Tốt Nghiệp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +230,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linear_Regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="SVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Đồ Án Tốt Nghiệp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/SVM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,17 +311,17 @@
     <list>
       <item itemvalue="Python.Linear_Regression" />
       <item itemvalue="Python.Simple_Neural_Network" />
-      <item itemvalue="Python.K-means" />
       <item itemvalue="Python.GD without momentum" />
       <item itemvalue="Python.precision &amp; recall" />
+      <item itemvalue="Python.SVM" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SVM" />
         <item itemvalue="Python.precision &amp; recall" />
         <item itemvalue="Python.Linear_Regression" />
         <item itemvalue="Python.GD without momentum" />
         <item itemvalue="Python.Simple_Neural_Network" />
-        <item itemvalue="Python.K-means" />
       </list>
     </recent_temporary>
   </component>
@@ -325,46 +339,46 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="754" extended-state="1" />
+    <frame x="-8" y="0" width="1378" height="754" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.10792951" side_tool="true" visible="true" weight="0.3534884" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.10866373" side_tool="true" visible="true" weight="0.3534884" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49702382" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8920705" weight="0.3534884" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89133626" weight="0.3534884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49702382" weight="0.32941177" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49702382" weight="0.32941177" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4940476" visible="true" weight="0.3277311" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50595236" side_tool="true" visible="true" weight="0.3277311" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -384,13 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Feature_Scaling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="16" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Feature_Scaling_Standardization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -656,7 +663,17 @@
     <entry file="file://$PROJECT_DIR$/dd/mm/yyy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+          <caret line="2" column="49" selection-start-line="2" selection-end-line="2" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
