@@ -2,7 +2,9 @@ from numpy import exp, array, random, dot
 training_set_inputs = array([[0, 0, 1], [1, 1, 1], [1, 0, 1], [0, 1, 1]])
 training_set_outputs = array([[0, 1, 1, 0]]).T
 random.seed(1)
-synaptic_weights = 2 * random.random((3, 1)) - 1
+synaptic_weights = 2 * random.random((3, 1)) - 1 #xây dựng random a matrix 3 rows và 1 cols
+print("synaptic_weights:\n {}\n\n".format(synaptic_weights))
+print("training set inputs: \n{}\n\ntraining set output: \n{}\n".format(training_set_inputs,training_set_outputs))
 for iteration in range(10000):
     output = 1 / (1 + exp(-(dot(training_set_inputs, synaptic_weights)))) #use sigmoid function to normalize data
     '''
